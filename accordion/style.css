@@ -21,6 +21,7 @@ h1 {
   text-align: center;
   margin: 2rem 0;
   font-size: 2.5rem;
+  font-weight: bold;
   background: linear-gradient(to left, #00a7ff 0%, #00bc3f 100%);
   background-clip: text;
   -webkit-background-clip: text;
