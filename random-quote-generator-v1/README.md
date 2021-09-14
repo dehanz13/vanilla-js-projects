@@ -2,7 +2,7 @@
 
 # [Quote Generator v1](https://dehanz13.github.io/vanilla-js-projects/random-quote-generator-v1)
 
-### simple random quote generator app
+### Simple random quote generator app
 
 Current Features:
 * Generate new quotes
