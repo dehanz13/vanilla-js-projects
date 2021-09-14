@@ -1,6 +1,6 @@
 > Click on the link below to view the App
 
-# [Todos](https://dehanz13.github.io/vanilla-js-projects//todos)
+# [Todos](https://dehanz13.github.io/vanilla-js-projects/todos)
 ### simple todo list app with a lot of functionalities
 
 Current Features:
