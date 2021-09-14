@@ -4,6 +4,6 @@
 
 1. [Todos](https://dehanz13.github.io/vanilla-js-projects/todos)
 
-#### Web Components - Elements used on many websites
+#### Web Components - Common elements used in websites
 
 1. [Accordion](https://dehanz13.github.io/vanilla-js-projects/accordion)
