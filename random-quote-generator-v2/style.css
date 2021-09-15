@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: url("http://7818-presscdn-0-76.pagely.netdna-cdn.com/wp-content/uploads/2015/10/photodune-3580063-wooden-surface-m4.jpg");
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container {
+  min-height: 450px;
+  height: 70%;
+  position: absolute;
+  /* centering vertically */
+  top: 50%;
+  transform: translateY(-55%);
+  /* centering horizontally */
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 2rem;
+}
+p {
+  font-size: 1em;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+.quote-box {
+  width: 70%;
+  margin: 1em auto;
+  /* border: 1px solid rgba(44, 62, 80, 1); */
+  margin-top: 20px;
+  padding: 20px;
+  min-height: 200px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: auto 0;
+}
+.quote-text {
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.quote-author {
+  margin-top: 1.5rem;
+  font-size: 1em;
+}
+button {
+  margin: 2rem auto;
+  padding: 0.6em;
+  font-size: 0.9em;
+}
+a:hover {
+  font-size: 1.1em;
+  border: 1px solid white;
+  border-color: white;
+  padding: 0.5em;
+  transition: all 0.3s ease 0s;
+}
+@media (min-width: 700px) {
+  .quote-box {
+    min-height: 120px;
+  }
+}
+/*
+	FOOTER
+---------------*/
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1.2rem;
+}
+footer p {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1rem !important;
+  background: -webkit-linear-gradient(cornflowerblue, cyan);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer a {
+  text-decoration: none;
+  background: -webkit-linear-gradient(darkslategray, darkseagreen);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer a:hover {
+  color: #0558a2;
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  footer p {
+    font-size: 0.9rem;
+  }
+}
