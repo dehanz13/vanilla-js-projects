@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Danniel Hansel" />
+    <title>Budget Calculator App</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Budget Calculator</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="col-md-12">
+          <form id="initial-form" class="form-inline">
+            <div class="form-group">
+              <input
+                type="number"
+                name="budget"
+                id="enter-budget"
+                class="form-control"
+                placeholder="Enter Your Budget"
+              />
+              <button id="budget-btn" type="submit" class="btn btn-success">
+                Enter
+              </button>
+            </div>
+
+            <div class="warning-messages" id="first-message"></div>
+          </form>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h4>Enter Your Daily Expenses:</h4>
+            <form id="second-form">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  name="name"
+                  id="expense-name"
+                  class="form-control"
+                  placeholder="i.e. Travel"
+                  disabled
+                />
+              </div>
+              <div class="form-group">
+                <label for="amount">Amount</label>
+                <input
+                  type="number"
+                  name="amount"
+                  id="expense-amount"
+                  class="form-control"
+                  placeholder="i.e. $250"
+                  disabled
+                />
+              </div>
+              <button
+                type="submit"
+                id="add-btn"
+                class="btn btn-primary"
+                disabled
+              >
+                Add
+              </button>
+            </form>
+            <div id="second-message"></div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <div>
+              <h4 class="bg-info">Budget: $<span id="my-budget">0</span></h4>
+              <h4 class="bg-success">
+                Remaining $<span id="remaining">0</span>
+              </h4>
+            </div>
+            <h4>My Expenses:</h4>
+            <ul id="list" class="list-group"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <!-- <footer
+      class="font-small text-muted position-relative bottom-0 start-50 translate-middle-x pb-3"
+    > -->
+      <p class="text-center">
+        Code Written By:
+        <a
+          href="https://github.com/dehanz13"
+          class="text-decoration-none"
+          rel="noopener noreferrer"
+          target="_blank"
+          >Danniel Hansel</a
+        >
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
