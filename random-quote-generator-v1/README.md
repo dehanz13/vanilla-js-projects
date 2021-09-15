@@ -1,6 +1,6 @@
 > Click on the link below to view the App
 
-# [Quote Generator v1](https://dehanz13.github.io/vanilla-js-projects/random-quote-generator-v1)
+# [Random Quote Generator v1](https://dehanz13.github.io/vanilla-js-projects/random-quote-generator-v1)
 
 ### Simple random quote generator app
 
