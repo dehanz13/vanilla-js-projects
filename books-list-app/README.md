@@ -4,10 +4,15 @@
 
 ### An app to keep track of your reading 
 
+Current Features:
 * Add books to the list
 * Store book details to the browser's Local Storage so the list is persistent even when the page is reloaded
 * When an entry is removed from the list, it should also be cleared from the Local Storage
-* 2 versions: 1 with Vanilla JS, 1 with Classes (OOP)
+
+Features to add:
+* Export list to .csv/.txt or other formats
+* Show a percentage of how much was read
+* Add star ratings from 0-5
 
 ### Created 2 versions
 > To switch versions, change the script source in the index.html file
